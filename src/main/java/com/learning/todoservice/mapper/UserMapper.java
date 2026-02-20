@@ -11,10 +11,11 @@ public class UserMapper {
         userDetailsRequest.setUserEmail(userDetails.getEmail());
         return userDetailsRequest;
     }
-        public static UserDetails toUserDetails(UserDetailsRequest userDetailsRequest) {
-            UserDetails userDetails = new UserDetails();
-            userDetails.setName(userDetailsRequest.getUserName());
-            userDetails.setEmail(userDetailsRequest.getUserEmail());
-            return userDetails;
-        }
+
+    public static UserDetails toUserDetails(UserDetailsRequest userDetailsRequest) {
+        UserDetails userDetails = new UserDetails();
+        userDetails.setName(userDetailsRequest.getUserName());
+        userDetails.setEmail(userDetailsRequest.getUserEmail());
+        return userDetails;
+    }
 }
