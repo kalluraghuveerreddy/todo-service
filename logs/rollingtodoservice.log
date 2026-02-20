@@ -1,0 +1,4 @@
+2026-02-20 13:06:12 [http-nio-8085-exec-2] ERROR c.l.t.c.UserDetailsController - Error Logger
+2026-02-20 13:06:12 [http-nio-8085-exec-2] WARN  c.l.t.c.UserDetailsController - Warn Logger
+2026-02-20 13:06:12 [http-nio-8085-exec-2] INFO  c.l.t.c.UserDetailsController - Info Logger
+2026-02-20 13:06:12 [http-nio-8085-exec-2] DEBUG c.l.t.c.UserDetailsController - Debug Logger
