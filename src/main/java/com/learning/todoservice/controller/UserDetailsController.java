@@ -13,9 +13,8 @@ public class UserDetailsController {
 
     Logger logger= LoggerFactory.getLogger(UserDetailsController.class);
 
-    @GetMapping
+    @GetMapping("/pingCheck")
     public ResponseEntity<String> getServerStatus() {
-        logger.info("Server Started");
-        return ResponseEntity.ok("Server is running");
+        return ResponseEntity.ok("Server is UP");
     }
 }
